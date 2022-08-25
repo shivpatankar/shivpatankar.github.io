@@ -474,7 +474,7 @@ li{
 }
 
 .testimonials .testimonials-content .slider{
-    height: 600px;
+    height: 750px;
 }
 
 .testimonials .testimonials-content .slider .slide{
@@ -540,6 +540,82 @@ li{
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
     background-color: #717171;
+}
+
+.shiv-test {
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider .slide{
+    height: 100%;
+}
+
+.shiv-test p{
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    font-size: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 1rem;
+    width: 80%;
+    line-height: 1.5;
+    position: relative;
+    text-align: justify;
+}
+
+.shiv-test p span{
+    position: absolute;
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+
+.shiv-test p span:first-child {
+    right: calc(100% - 5rem);
+    bottom: calc(100% - 5rem);
+    transform: rotateZ(180deg);
+}
+
+.shiv-test p span:last-child{
+    left: calc(100% - 5rem);
+    top: calc(100% - 5rem);
+    
+}
+
+
+.shiv-test p:nth-of-type(2){
+    margin-bottom: 1rem;
+}
+
+.shiv-test p span img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px){
+    .shiv-test p {
+            background-color: rgb(255, 255, 255);
+            color: rgb(3, 3, 3);
+            font-size: 1rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            border-radius: 1rem;
+            width: 80%;
+            line-height: 1.5;
+            position: relative;
+            text-align: justify;
+        }
 }
 
 /* .testimonials .testimonials-content{
@@ -882,7 +958,7 @@ form{
     }
 
     .testimonials .testimonials-content .slider{
-        height: 200px;
+        height: 650px;
     }
 
     .dot-container {
