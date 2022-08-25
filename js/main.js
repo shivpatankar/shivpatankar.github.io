@@ -28,7 +28,7 @@ $(document).ready(function () {
     });
 
     var typed = new Typed('#typed', {
-        strings: ["Software Developer", "World Chess Federation Rated Player", "Engineer", "Chess Enthusiastic"],
+        strings: ["Data Driven Marketer", "Martech enthusiast","Chess enthusiast"],
         backspeed: 40,
         typeSpeed: 40,
         loop: true,
