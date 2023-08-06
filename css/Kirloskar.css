@@ -34,7 +34,9 @@ body{
 img{
     width: 30rem;
     display: inline-block;
-    padding-top: 40px;
+    margin-top: 40px;
+    padding: 1rem;
+    background-color: rgb(245, 245, 245);
 }
 
 .heading h1{
